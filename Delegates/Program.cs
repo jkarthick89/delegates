@@ -21,7 +21,7 @@ namespace Delegates
     {
         public delegate int MathOperation(int i, int j);
         
-        //Added Comment line here
+        //Added Comment line here : 
         public MathOperation GetPointer(int i)
         {
             MathOperation oDelegete = null;
