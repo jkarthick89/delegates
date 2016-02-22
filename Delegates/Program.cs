@@ -12,9 +12,7 @@ namespace Delegates
         {
             Maths oMaths = new Maths();
            int a = oMaths.GetPointer(5).Invoke(4, 4);
-        }
-
-       
+        }       
     }
 
     class Maths
